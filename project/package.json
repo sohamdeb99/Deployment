@@ -7,9 +7,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "client": "npm start --prefix client",
-    "start-flask": "python \"./project/src/Artificial Intelligence/app.py\"",
-    "dev": "npx concurrently \"npm start\" \"npm run client\" \"npm run start-flask\""
+    "client": "npm start"
   },
   "engines": {
     "node": ">=14.0.0",
