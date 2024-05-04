@@ -1,0 +1,11 @@
+[build]
+base = "/"
+publish = "dist/"  # This should match your local output directory
+command = "npm run build-your-script"
+
+
+[[redirects]]
+from = "/*"
+to = "/index.html"  # Ensure this points to the correct `index.html` in your `dist/` directory
+status = 200
+force = true  # This ensures that the redirect overrides any existing files
